@@ -136,3 +136,6 @@ if __name__ == "__main__":
     BurpExtender()
 ```
 This script fetches the target hosts from the Burp scope using the IScannerInsertionPointProvider interface and then runs the MTR function for each target host. Make sure to configure the Burp Suite to use Jython and run the script. Adjust the script and handle exceptions appropriately based on the specific requirements of your use case.
+
+
+Update: I have fixed errors in code and now it works in Burp
